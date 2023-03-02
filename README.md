@@ -21,9 +21,10 @@ You win a game of Tic-Tac-Toe if you have all three positions:
 
  - 1 5 9
  - 3 5 7
- 
+
  - 1 4 7
  - 2 5 8
  - 3 6 9
 
-
+Stretch Goals:
+Incorporate ruby and sql, or aws amplify in order to have true online multiplayer.
