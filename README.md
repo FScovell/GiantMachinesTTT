@@ -28,3 +28,4 @@ You win a game of Tic-Tac-Toe if you have all three positions:
 
 Stretch Goals:
 Incorporate ruby and sql, or aws amplify in order to have true online multiplayer.
+Add version with alternating X's and 0's

@@ -1,5 +1,3 @@
-// import Button from 'react-bootstrap/Button';
-// import Card from 'react-bootstrap/Card';
 import { useState } from 'react' 
 function TCard({numberOfCell, whatAmI}) {
   const [ image, setImage ] = useState("https://www.tastingtable.com/img/gallery/why-capybara-was-once-considered-a-fish/intro-1662056291.jpg")
@@ -8,7 +6,7 @@ function TCard({numberOfCell, whatAmI}) {
     <div >
       <img src={image} width="30%" height="30%" alt="Lettero" onClick={clicker}></img>
     </div>
-  );
+  )
 
   function clicker(){
 
@@ -30,4 +28,4 @@ function TCard({numberOfCell, whatAmI}) {
   }
 }
 
-export default TCard;
+export default TCard
